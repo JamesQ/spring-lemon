@@ -11,11 +11,6 @@ spring:
     url: jdbc:mariadb://localhost:3306/lemondb?autoReconnect=true&useSSL=false #jdbc:postgresql://localhost:5432/lemondb
     username: lemonadmin
     password: P@ssw0rd
-#    hikari:
-#      jdbc-url: jdbc:mariadb://localhost:3306/lemondb?autoReconnect=true&useSSL=false
-#      driver-class-name: org.mariadb.jdbc.Driver
-#      username: lemonadmin
-#      password: P@ssw0rd
   security:
     oauth2:
       client:
